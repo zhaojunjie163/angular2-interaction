@@ -28,4 +28,12 @@ export class HeroParentComponentComponent implements OnInit {
     this.minor = 0;
   }
 
+
+  agreed = 0;
+  disagreed = 0;
+  voters = ['Mr. IQ', 'Ms. Universe', 'Bombasto'];
+  onVoted(agree: boolean){
+    agree? this.agreed ++ : this.disagreed++;
+  }
+
 }

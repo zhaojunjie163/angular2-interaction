@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { HeroChildComponentComponent } from './hero-child-component/hero-child-component.component';
 import { HeroParentComponentComponent } from './hero-parent-component/hero-parent-component.component';
 import { VersionChildComponentComponent } from './version-child-component/version-child-component.component';
+import { VoterComponentComponent } from './voter-component/voter-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroChildComponentComponent,
     HeroParentComponentComponent,
-    VersionChildComponentComponent
+    VersionChildComponentComponent,
+    VoterComponentComponent
   ],
   imports: [
     BrowserModule,
