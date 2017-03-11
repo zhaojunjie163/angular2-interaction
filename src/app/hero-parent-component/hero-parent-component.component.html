@@ -1,0 +1,12 @@
+<h2>{{master}} controls {{heroes.length}} heroes</h2>
+<app-hero-child-component *ngFor="let hero of heroes"
+                          [hero]="hero"
+                          [master]="master"
+                          [name]="hero.name">
+</app-hero-child-component>
+
+
+<h2>Source code version</h2>
+<button (click)="newMinor()">New minor version</button>
+<button (click)="newMajor()">New major version</button>
+<app-version-child-component [major]="major" [minor]="minor"></app-version-child-component>
