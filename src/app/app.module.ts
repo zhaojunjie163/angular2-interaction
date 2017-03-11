@@ -13,6 +13,7 @@ import {
   CountdownTimerComponent
 } from './countdown-timer-component/countdown-timer-component.component';
 import { CountdownViewChildParentComponentComponent } from './countdown-view-child-parent-component/countdown-view-child-parent-component.component';
+import { AstronautComponent } from './astronaut/astronaut.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CountdownViewChildParentComponentComponent } from './countdown-view-chi
     VersionChildComponentComponent,
     VoterComponentComponent,
     CountdownTimerComponent,
-    CountdownViewChildParentComponentComponent
+    CountdownViewChildParentComponentComponent,
+    AstronautComponent
 
   ],
   imports: [
