@@ -12,6 +12,7 @@ import { VoterComponentComponent } from './voter-component/voter-component.compo
 import {
   CountdownTimerComponent
 } from './countdown-timer-component/countdown-timer-component.component';
+import { CountdownViewChildParentComponentComponent } from './countdown-view-child-parent-component/countdown-view-child-parent-component.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {
     HeroParentComponentComponent,
     VersionChildComponentComponent,
     VoterComponentComponent,
-    CountdownTimerComponent
+    CountdownTimerComponent,
+    CountdownViewChildParentComponentComponent
 
   ],
   imports: [
