@@ -9,6 +9,9 @@ import { HeroChildComponentComponent } from './hero-child-component/hero-child-c
 import { HeroParentComponentComponent } from './hero-parent-component/hero-parent-component.component';
 import { VersionChildComponentComponent } from './version-child-component/version-child-component.component';
 import { VoterComponentComponent } from './voter-component/voter-component.component';
+import {
+  CountdownTimerComponent
+} from './countdown-timer-component/countdown-timer-component.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,9 @@ import { VoterComponentComponent } from './voter-component/voter-component.compo
     HeroChildComponentComponent,
     HeroParentComponentComponent,
     VersionChildComponentComponent,
-    VoterComponentComponent
+    VoterComponentComponent,
+    CountdownTimerComponent
+
   ],
   imports: [
     BrowserModule,
